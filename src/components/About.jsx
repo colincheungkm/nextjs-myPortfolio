@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Playfair_Display } from 'next/font/google';
+import heroImg from '../../public/assets/hero.jpg';
 
 const playfairDisplay = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
 
@@ -41,7 +42,7 @@ const About = () => {
           </div>
         </div>
         <div className="w-full h-auto m-auto rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Image className="rounded-xl sepia-[19%]" src="/../public/assets/hero.jpg" alt="/" width="600" height="300" />
+          <Image className="rounded-xl sepia-[19%]" src={heroImg} alt="/" width="600" height="300" />
         </div>
       </div>
     </div>
