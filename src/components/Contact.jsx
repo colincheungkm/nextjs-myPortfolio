@@ -15,7 +15,7 @@ const Contact = () => {
           <div>
             <h2 className="py-4 tracking-wider text-zinc-100">
               📍TORONTO, CANADA <br />
-              ✉️hello@...{' '}
+              ✉️hello@colincheungkm.com{' '}
             </h2>
 
             <p className="py-2 mt-6 text-zinc-100 tracking-wider text-base max-w-[990px]">
@@ -46,7 +46,7 @@ const Contact = () => {
               </Link>
 
               <Link
-                href="mailto:hello@..."
+                href="mailto:hello@colincheungkm.com"
                 target="_blank"
                 className="text-3xl rounded-full border-2 border-zinc-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
               >
