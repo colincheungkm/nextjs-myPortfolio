@@ -26,25 +26,26 @@ const Projects = () => {
         <h2 className={`${playfairDisplay.className} text-4xl mb-2 tracking-widest`}>PROJECTS</h2>
 
         <div className="flex flex-col mt-4">
+          {/* GITHUB FINDER */}
           <ProjectItem
             title="GitHub Finder App"
             projectUrl="/githubfinder"
             logo={
               <>
-                <SiReact className="text-4xl mx-2" />
-                <SiTailwindcss className="text-4xl mx-2" />
-                <AiFillApi className="text-4xl mx-2" />
+                <SiReact className="mx-1" />
+                <SiTailwindcss className="mx-1" />
+                <AiFillApi className="mx-1" />
               </>
             }
           />
-          {/*  */}
+          {/* ENTERPRISE DASH */}
           <ProjectItem
             title="Enterprise Dashboard App"
             projectUrl="/enterprise-dashboard"
             logo={
               <>
-                <SiNextdotjs className="text-4xl mx-2" />
-                <SiTailwindcss className="text-4xl mx-2" />
+                <SiNextdotjs className="mx-1" />
+                <SiTailwindcss className="mx-1" />
               </>
             }
           />

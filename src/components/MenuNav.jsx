@@ -17,7 +17,7 @@ export default function MenuNav() {
   return (
     <div className="fixed w-full h-20 z-[100] p-4 mt-1">
       <button
-        className={`${playfairDisplay.className} flex font-bold text-3xl text-zinc-100 border-[#00bcd4] border-b-2 rounded-xl p-1 text-center justify-center items-center`}
+        className={`${playfairDisplay.className} flex font-bold text-3xl text-zinc-100 border-[#00bcd4] border-y-2 rounded-xl p-1 text-center justify-center items-center`}
         onClick={handleOpen}
       >
         <CgMenuGridO

@@ -7,15 +7,15 @@ const playfairDisplay = Playfair_Display({ subsets: ['latin'], variable: '--font
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full flex p-2 lg:h-[70%]">
+    <div id="contact" className="w-full flex p-2 lg:h-[80%]">
       <div className="max-w-[1240px] m-auto p-2 py-16 w-full ">
         <h2 className={`${playfairDisplay.className} text-4xl mb-2 tracking-widest`}>CONTACT</h2>
 
         <div className="w-full h-full">
           <div>
             <h2 className="py-4 tracking-wider text-zinc-100">
-              📍TORONTO, CANADA <br />
-              ✉️hello@colincheungkm.com{' '}
+              📍 TORONTO, CANADA <br />
+              ✉️ hello@colincheungkm.com{' '}
             </h2>
 
             <p className="py-2 mt-6 text-zinc-100 tracking-wider text-base max-w-[990px]">
