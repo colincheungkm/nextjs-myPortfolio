@@ -12,7 +12,7 @@ const About = () => {
           <h2 className={`${playfairDisplay.className} text-4xl mb-2 tracking-widest`}>ABOUT</h2>
 
           <div className="py-2 text-zinc-100 ">
-            <p className="py-2 tracking-wider text-base">
+            <p className="py-2 tracking-wider text-base leading-relaxed">
               😊 A little about my journey...
               <br />
               <br />
@@ -41,8 +41,14 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="w-full h-auto m-auto rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Image className="rounded-xl sepia-[19%]" src={heroImg} alt="/" width="600" height="300" />
+        <div className="w-full h-auto m-auto rounded-xl flex items-center justify-center p-4">
+          <Image
+            className="rounded-xl sepia-[19%] border-y-2 border-[#00bcd4] p-2"
+            src={heroImg}
+            alt="/"
+            width="600"
+            height="300"
+          />
         </div>
       </div>
     </div>

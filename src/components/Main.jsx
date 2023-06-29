@@ -12,14 +12,14 @@ const Main = () => {
     <div id="home" className="flex w-full h-[100vh] md:h-[98vh] text-center">
       <div className="max-w-[1240px] w-full h-[99%] mx-auto p-2 py-16 flex justify-center items-center">
         <div>
-          <p className="text-sm tracking-wider text-zinc-300 mt-9 mb-10">HELLO I AM</p>
+          <p className="text-sm tracking-wider text-zinc-300 mt-10 mb-10">HELLO I AM</p>
           <h1 className={`${playfairDisplay.className} py-4 mb-10 tracking-widest text-5xl md:text-6xl lg:text-7xl`}>
             COLIN <span className="text-zinc-100">C</span>HEUNG <span className="text-zinc-100">KM</span>
           </h1>
 
-          <div className="text-zinc-100 max-w-[80%] m-auto tracking-widest text-lg">
+          <div className={`text-zinc-100 max-w-[80%] m-auto tracking-widest leading-loose`}>
             <p>Senior CX Specialist</p>
-            <p>Full-Stack Web Developer</p>
+            <p>Web Developer</p>
             <p>Music Producer</p>
           </div>
           <div className="flex items-center justify-between max-w-[400px] m-auto py-4 mt-12">

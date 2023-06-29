@@ -15,6 +15,7 @@ import {
   SiGithub,
   SiNodedotjs,
 } from 'react-icons/si';
+import { AiFillApi } from 'react-icons/ai';
 import SkillCard from './SkillCard';
 import { Playfair_Display } from 'next/font/google';
 
@@ -35,6 +36,7 @@ const Skills = ({}) => {
           <SkillCard logo={<SiTailwindcss className="w-[64px] h-[64px]" />} name="Tailwind.CSS" />
           <SkillCard logo={<SiFigma className="w-[64px] h-[64px]" />} name="Figma" />
           <SkillCard logo={<SiGithub className="w-[64px] h-[64px]" />} name="GitHub" />
+          <SkillCard logo={<AiFillApi className="w-[64px] h-[64px]" />} name="API" />
           {/* <SkillCard logo={<SiNodedotjs className="w-[64px] h-[64px]" />} name="Node.JS" /> */}
           <SkillCard logo={<SiMysql className="w-[64px] h-[64px]" />} name="MySQL" />
           <SkillCard logo={<SiMongodb className="w-[64px] h-[64px]" />} name="MongoDB" />
