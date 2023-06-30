@@ -26,6 +26,31 @@ const Projects = () => {
         <h2 className={`${playfairDisplay.className} text-4xl mb-2 tracking-widest`}>PROJECTS</h2>
 
         <div className="flex flex-col mt-4">
+          {/* portfolio */}
+          <ProjectItem
+            title="this.site :]"
+            projectUrl="/#home"
+            logo={
+              <>
+                <SiNextdotjs className="mx-1" />
+                <SiTailwindcss className="mx-1" />
+              </>
+            }
+          />
+
+          {/* todo */}
+          <ProjectItem
+            title="To Do App w/ Firebase"
+            projectUrl="/#home"
+            logo={
+              <>
+                <SiNextdotjs className="mx-1" />
+                <SiTailwindcss className="mx-1" />
+                <SiFirebase className="mx-1" />
+              </>
+            }
+          />
+
           {/* GITHUB FINDER */}
           <ProjectItem
             title="GitHub Finder App"
@@ -46,6 +71,30 @@ const Projects = () => {
               <>
                 <SiNextdotjs className="mx-1" />
                 <SiTailwindcss className="mx-1" />
+              </>
+            }
+          />
+          {/* Weather App  */}
+          <ProjectItem
+            title="Weather App"
+            projectUrl="/weather"
+            logo={
+              <>
+                <SiNextdotjs className="mx-1" />
+                <SiTailwindcss className="mx-1" />
+                <AiFillApi className="mx-1" />
+              </>
+            }
+          />
+          {/* Calculator App  */}
+          <ProjectItem
+            title="Calculator App"
+            projectUrl="/calculator"
+            logo={
+              <>
+                <SiHtml5 className="mx-1" />
+                <SiCss3 className="mx-1" />
+                <SiJavascript className="mx-1" />
               </>
             }
           />
