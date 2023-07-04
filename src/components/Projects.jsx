@@ -1,20 +1,7 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import { Playfair_Display } from 'next/font/google';
-import {
-  SiHtml5,
-  SiCss3,
-  SiJavascript,
-  SiReact,
-  SiNextdotjs,
-  SiTailwindcss,
-  SiMysql,
-  SiMongodb,
-  SiFirebase,
-  SiFigma,
-  SiGithub,
-  SiNodedotjs,
-} from 'react-icons/si';
+import { SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiTailwindcss, SiFirebase } from 'react-icons/si';
 import { AiFillApi } from 'react-icons/ai';
 
 const playfairDisplay = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
@@ -41,7 +28,7 @@ const Projects = () => {
           {/* todo */}
           <ProjectItem
             title="To Do App w/ Firebase"
-            projectUrl="/#home"
+            projectUrl="/todo-firebase"
             logo={
               <>
                 <SiNextdotjs className="mx-1" />
