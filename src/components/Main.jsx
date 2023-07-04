@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { FaGithub, FaLinkedinIn, FaSoundcloud, FaInstagram } from 'react-icons/fa';
+import { BiMailSend } from 'react-icons/bi';
 import Link from 'next/link';
 import { Playfair_Display } from 'next/font/google';
 
@@ -48,11 +49,11 @@ const Main = () => {
             </Link>
 
             <Link
-              href="https://www.instagram.com/colin_ckm/"
+              href="mailto:hello@colincheungkm.com"
               target="_blank"
               className="text-3xl rounded-full border-2 border-zinc-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
             >
-              <FaInstagram />
+              <BiMailSend />
             </Link>
           </div>
         </div>

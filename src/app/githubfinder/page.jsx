@@ -52,10 +52,11 @@ const githubfinder = () => {
             This application retrieves GitHub profiles from the GitHub API and showcases various users. The primary
             objective of this project was to gain a comprehensive understanding of React's state management. It provided
             me with valuable insights into utilizing state management hooks such as useContext and useReducer, delving
-            deeper into their functionality and applications within a React project. Through this endeavor, I acquired a
-            deeper comprehension of managing state in React and explored advanced state management techniques.
+            deeper into their functionality and applications within a React project.
             <br />
             <br />
+            Through this endeavor, I acquired a deeper comprehension of managing state in React and explored advanced
+            state management techniques.
           </p>
         </div>
       </div>

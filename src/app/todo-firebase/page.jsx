@@ -49,9 +49,12 @@ const todofirebase = () => {
         <div className="">
           <p className="py-2 text-zinc-100 tracking-wider text-base leading-relaxed">
             I have previously developed several To-Do apps using Vanilla JS, but this particular one was built with a
-            specific focus on implementing CRUD functionalities through the Google Firebase backend. This integration
-            enables the app to seamlessly synchronize data across multiple devices, offering a superior user experience
-            compared to relying solely on the browser's local storage.
+            specific focus on implementing CRUD (Create, Read, Update, Delete) functionalities through the Google
+            Firebase backend.
+            <br />
+            <br />
+            This integration enables the app to seamlessly synchronize data across multiple devices, offering a superior
+            user experience compared to relying solely on the browser's local storage.
           </p>
         </div>
       </div>
