@@ -1,27 +1,17 @@
 import React from 'react';
-import Image from 'next/image';
-import codeImg from '../../../public/assets/projects/code.jpg';
 import { SiHtml5, SiCss3, SiJavascript } from 'react-icons/si';
 import { AiFillCode } from 'react-icons/ai';
 import { MdWeb } from 'react-icons/md';
 import Link from 'next/link';
-import { Playfair_Display } from 'next/font/google';
-
-const playfairDisplay = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
+import ProjectHeader from '../../components/project-page/ProjectHeader';
 
 const calculator = () => {
   return (
     <div className="w-full">
-      <div className="w-screen h-[40vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[40vh] bg-black/70 z-10 overflow-hidden" />
-        <Image className="absolute z-1 object-cover" fill src={codeImg} alt="/" />
-        <div className="absolute top-[70%] max-w-[1240px] w-max border-[#00bcd4] border-y-4 rounded-lg left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2">
-          <h2 className={`${playfairDisplay.className} py-2 text-4xl`}>Calculator App</h2>
-        </div>
-      </div>
+      <ProjectHeader title="Calculator App" />
 
       <div className="max-w-[1240px] mx-auto p-2 flex flex-col gap-8 py-8">
-        <div className="">
+        <div>
           <div className="flex w-full justify-start items-center px-2">
             <div className="flex flex-col justify-center items-start px-3">
               <p className="text-zinc-100 py-2 flex items-center">
@@ -35,7 +25,7 @@ const calculator = () => {
               </p>
             </div>
 
-            <div className="flex flex-col px-2 ml-12">
+            <div className="flex flex-col px-1 ml-12">
               <Link
                 href="https://github.com/colincheungkm/calculator-Project"
                 target="_blank"
@@ -56,18 +46,20 @@ const calculator = () => {
 
         <div className="">
           <p className="py-2 text-zinc-100 tracking-wider text-base leading-relaxed">
-            This is one of my first few projects when I was still mastering the foundations of Web development. This was
-            built with the 3 main fundamentals - HTML, CSS and JavaScript. When I first tackled this project it was
-            actually quite a complex project to undertake.
+            This was one of my first few projects when I was still mastering the foundations of web development. It was
+            built using the three main fundamentals: HTML, CSS, and JavaScript. Tackling this project initially posed
+            quite a complex challenge.
             <br />
             <br />
-            Here I had used the "class" construct that is centered around object-oriented programming, to essentially
-            build out the blueprint for this analog calculator. I would then later instantiate a new "calculator" from
-            the "Calculator" class.
+            Here, I used the "class" construct, which is centered around object-oriented programming, to essentially
+            build the blueprint for this analog calculator. Later on, I would instantiate a new "calculator" from the
+            "Calculator" class.
             <br />
             <br />
-            This project allowed me to gain a better familiarity with the class syntax and with the Document Object
-            Model (DOM).
+            Throughout this endeavor, I not only deepened my understanding of class syntax but also delved into the
+            intricacies of the Document Object Model (DOM). This project provided an invaluable opportunity for me to
+            gain hands-on familiarity with manipulating elements within web pages and enhanced my overall proficiency in
+            web development.
           </p>
         </div>
       </div>

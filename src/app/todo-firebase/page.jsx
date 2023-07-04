@@ -1,28 +1,18 @@
 import React from 'react';
-import Image from 'next/image';
-import codeImg from '../../../public/assets/projects/code.jpg';
 import { SiNextdotjs, SiTailwindcss, SiFirebase } from 'react-icons/si';
 import { AiFillCode } from 'react-icons/ai';
 import { MdWeb } from 'react-icons/md';
 import Link from 'next/link';
-import { Playfair_Display } from 'next/font/google';
-
-const playfairDisplay = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
+import ProjectHeader from '@/components/project-page/ProjectHeader';
 
 const todofirebase = () => {
   return (
     <div className="w-full">
-      <div className="w-screen h-[40vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[40vh] bg-black/70 z-10 overflow-hidden" />
-        <Image className="absolute z-1 object-cover object-left-bottom" fill src={codeImg} alt="/" />
-        <div className="absolute top-[70%] max-w-[1240px] w-max bg-[#18181b] border-[#00bcd4] border-y-2 rounded-lg left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2">
-          <h2 className={`${playfairDisplay.className} py-2 text-4xl`}>To Do App w/ Firebase</h2>
-        </div>
-      </div>
+      <ProjectHeader title="To-Do App" />
 
       <div className="max-w-[1240px] mx-auto p-2 flex flex-col gap-8 py-8">
         {/* tech box */}
-        <div className="">
+        <div>
           <div className="flex w-full justify-start items-center px-2">
             <div className="flex flex-col justify-center items-start px-3">
               <p className="text-zinc-100 py-2 flex items-center">
@@ -36,7 +26,7 @@ const todofirebase = () => {
               </p>
             </div>
 
-            <div className="flex flex-col px-2 ml-12">
+            <div className="flex flex-col px-1 ml-12">
               <Link
                 href="https://github.com/colincheungkm/nextjs-firebase-todo-app"
                 target="_blank"
@@ -58,10 +48,10 @@ const todofirebase = () => {
         {/* summary */}
         <div className="">
           <p className="py-2 text-zinc-100 tracking-wider text-base leading-relaxed">
-            I have previously created a few To Do apps already using Vanilla JS but with is built with the focus to
-            create CRUD (Create, Read, Update & Delete) functionalities with the Google Firebase back-end.This allows
-            the app to sync the working data from anywhere, and it is a much better experience than just using the
-            browser's local storage.
+            I have previously developed several To-Do apps using Vanilla JS, but this particular one was built with a
+            specific focus on implementing CRUD functionalities through the Google Firebase backend. This integration
+            enables the app to seamlessly synchronize data across multiple devices, offering a superior user experience
+            compared to relying solely on the browser's local storage.
           </p>
         </div>
       </div>

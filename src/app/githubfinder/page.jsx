@@ -1,28 +1,19 @@
 import React from 'react';
-import Image from 'next/image';
-import codeImg from '../../../public/assets/projects/code.jpg';
 import { SiReact, SiTailwindcss } from 'react-icons/si';
 import { AiFillApi, AiFillCode } from 'react-icons/ai';
 import { MdWeb } from 'react-icons/md';
 import Link from 'next/link';
-import { Playfair_Display } from 'next/font/google';
 
-const playfairDisplay = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
+import ProjectHeader from '@/components/project-page/ProjectHeader';
 
 const githubfinder = () => {
   return (
     <div className="w-full">
-      <div className="w-screen h-[40vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[40vh] bg-black/70 z-10 overflow-hidden" />
-        <Image className="absolute z-1 object-cover object-left-bottom" fill src={codeImg} alt="/" />
-        <div className="absolute top-[70%] max-w-[1240px] w-max bg-[#18181b] border-[#00bcd4] border-y-2 rounded-lg left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2">
-          <h2 className={`${playfairDisplay.className} py-2 text-4xl`}>GitHub Finder App</h2>
-        </div>
-      </div>
+      <ProjectHeader title="GitHub Finder App" />
 
       <div className="max-w-[1240px] mx-auto p-2 flex flex-col gap-8 py-8">
         {/* tech box */}
-        <div className="">
+        <div>
           <div className="flex w-full justify-start items-center px-2">
             <div className="flex flex-col justify-center items-start px-3">
               <p className="text-zinc-100 py-2 flex items-center">
@@ -36,7 +27,7 @@ const githubfinder = () => {
               </p>
             </div>
 
-            <div className="flex flex-col px-2 ml-12">
+            <div className="flex flex-col px-1 ml-12">
               <Link
                 href="https://github.com/colincheungkm/GitHub-Finder"
                 target="_blank"
@@ -58,9 +49,11 @@ const githubfinder = () => {
         {/* summary */}
         <div className="">
           <p className="py-2 text-zinc-100 tracking-wider text-base leading-relaxed">
-            This application is pulling GitHub profiles from the GitHub API and displaying different users. The main
-            focus of this project allowed me to grasp a better understanding of how React uses state and allowed me to
-            get into more deeper understanding to use state management hooks such as useContext and useReducer.
+            This application retrieves GitHub profiles from the GitHub API and showcases various users. The primary
+            objective of this project was to gain a comprehensive understanding of React's state management. It provided
+            me with valuable insights into utilizing state management hooks such as useContext and useReducer, delving
+            deeper into their functionality and applications within a React project. Through this endeavor, I acquired a
+            deeper comprehension of managing state in React and explored advanced state management techniques.
             <br />
             <br />
           </p>
