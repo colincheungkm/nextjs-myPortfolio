@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import { Playfair_Display } from 'next/font/google';
-import heroImg from '../../public/assets/hero.jpg';
+import Image from "next/image";
+import { Playfair_Display } from "next/font/google";
+import heroImg from "../../public/assets/hero.jpg";
 
-const playfairDisplay = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
+const playfairDisplay = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 const About = () => {
   return (
@@ -16,32 +16,36 @@ const About = () => {
               😊 A little about my journey...
               <br />
               <br />
-              I'm a results-driven professional with a strong background in finance and telecom. Over the past 8 years
-              after graduating from the University of Toronto, I have excelled in various client-facing roles, focusing
-              on enhancing the client experience, driving sales, and ensuring customer success.
+              I'm a results-driven professional with a strong background in finance and telecom.
+              Over the past 8 years after graduating from the University of Toronto, I have excelled
+              in various client-facing roles, focusing on enhancing the client experience, driving
+              sales, and ensuring customer success.
               <br />
               <br />
-              In early 2021, I joined Nest Wealth as a CX Specialist, where I leveraged my skillset to provide
-              exceptional customer support. Working in this role and being part of a dynamic company sparked my interest
-              in the technological aspects of an enterprise-grade SaaS company.
+              In early 2021, I joined Nest Wealth as a CX Specialist, where I leveraged my skillset
+              to provide exceptional customer support. Working in this role and being part of a
+              dynamic company sparked my interest in the technological aspects of an
+              enterprise-grade SaaS company.
               <br />
               <br />
-              Motivated to expand my knowledge, I delved into self-learning web development in April 2022. Through
-              online courses on platforms like Udemy, I gained valuable skills in web development and sharpened my
-              understanding of this rapidly evolving field.
+              Motivated to expand my knowledge, I delved into self-learning web development in April
+              2022. Through online courses on platforms like Udemy, I gained valuable skills in web
+              development and sharpened my understanding of this rapidly evolving field.
               <br />
               <br />
-              I am now seeking new opportunities where I can leverage my finance and telecom experience alongside my
-              growing expertise in web development. I am passionate about combining my client-focused mindset with
-              cutting-edge technology to create impactful solutions.
+              I am now seeking new opportunities where I can leverage my finance and telecom
+              experience alongside my growing expertise in web development. I am passionate about
+              combining my client-focused mindset with cutting-edge technology to create impactful
+              solutions.
               <br />
               <br />
-              If you're looking for a dedicated professional with a diverse skillset and a drive for continuous
-              learning, I would be thrilled to discuss how I can contribute to your organization.
+              If you're looking for a dedicated professional with a diverse skillset and a drive for
+              continuous learning, I would be thrilled to discuss how I can contribute to your
+              organization.
             </p>
           </div>
         </div>
-        <div className="w-full h-auto m-auto rounded-xl flex items-center justify-center p-4">
+        <div className="w-full h-auto m-auto rounded-xl flex items-center justify-center p-4 hidden md:block lg:block">
           <Image
             className="rounded-xl sepia-[19%] border-y-2 border-[#00bcd4] p-2"
             src={heroImg}

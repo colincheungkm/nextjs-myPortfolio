@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import React from 'react';
-import Link from 'next/link';
-import { Playfair_Display } from 'next/font/google';
-import { CgMenuGridO } from 'react-icons/cg';
+import React from "react";
+import Link from "next/link";
+import { Playfair_Display } from "next/font/google";
+import { CgMenuGridO } from "react-icons/cg";
 
-const playfairDisplay = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
+const playfairDisplay = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export default function MenuNav() {
   const [open, setOpen] = React.useState(false);
@@ -15,7 +15,7 @@ export default function MenuNav() {
   };
 
   return (
-    <div className="fixed w-full h-20 z-[100] p-4 mt-1">
+    <div className="fixed w-full h-20 z-[100] p-4 mt-1 hidden md:block">
       <button
         className={`${playfairDisplay.className} flex font-bold text-3xl text-zinc-100 border-[#00bcd4] border-y-2 rounded-xl p-1 text-center justify-center items-center`}
         onClick={handleOpen}
@@ -26,7 +26,7 @@ export default function MenuNav() {
               ? `mr-2 -rotate-45 transform transition-transform ease-in duration-300 text-4xl`
               : `mr-2 transform transition-transform ease-in duration-300 text-4xl`
           }
-        />{' '}
+        />{" "}
         <span className="mr-2">C</span>
         <span className="mr-2">K</span>
         <span className="mr-2">M</span>

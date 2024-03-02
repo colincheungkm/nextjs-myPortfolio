@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import React from 'react';
+import React from "react";
 import {
   SiHtml5,
   SiCss3,
@@ -11,15 +11,18 @@ import {
   SiMysql,
   SiMongodb,
   SiFirebase,
-  SiFigma,
+  SiExpress,
   SiGithub,
   SiNodedotjs,
-} from 'react-icons/si';
-import { AiFillApi } from 'react-icons/ai';
-import SkillCard from './SkillCard';
-import { Playfair_Display } from 'next/font/google';
+} from "react-icons/si";
+import { AiFillApi } from "react-icons/ai";
+import SkillCard from "./SkillCard";
+import { Playfair_Display } from "next/font/google";
 
-const playfairDisplay = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
+const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+});
 
 const Skills = ({}) => {
   return (
@@ -28,19 +31,19 @@ const Skills = ({}) => {
         <h2 className={`${playfairDisplay.className} text-4xl mb-2 tracking-widest`}>SKILLS</h2>
 
         <div className="grid py-2 md:grid-cols-2 lg:grid-cols-4 gap-3">
-          <SkillCard logo={<SiHtml5 className="w-[64px] h-[64px]" />} name="HTML" />
-          <SkillCard logo={<SiCss3 className="w-[64px] h-[64px]" />} name="CSS" />
-          <SkillCard logo={<SiJavascript className="w-[64px] h-[64px]" />} name="JavaScript" />
-          <SkillCard logo={<SiReact className="w-[64px] h-[64px]" />} name="React.JS" />
-          <SkillCard logo={<SiNextdotjs className="w-[64px] h-[64px]" />} name="Next.JS" />
-          <SkillCard logo={<SiTailwindcss className="w-[64px] h-[64px]" />} name="Tailwind.CSS" />
-          <SkillCard logo={<SiFigma className="w-[64px] h-[64px]" />} name="Figma" />
-          <SkillCard logo={<SiGithub className="w-[64px] h-[64px]" />} name="GitHub" />
-          <SkillCard logo={<AiFillApi className="w-[64px] h-[64px]" />} name="API" />
-          {/* <SkillCard logo={<SiNodedotjs className="w-[64px] h-[64px]" />} name="Node.JS" /> */}
-          <SkillCard logo={<SiMysql className="w-[64px] h-[64px]" />} name="MySQL" />
-          <SkillCard logo={<SiMongodb className="w-[64px] h-[64px]" />} name="MongoDB" />
-          <SkillCard logo={<SiFirebase className="w-[64px] h-[64px]" />} name="Firebase" />
+          <SkillCard logo={<SiHtml5 className="text-[#f97316]" />} name="HTML" />
+          <SkillCard logo={<SiCss3 className="text-[#1d4ed8]" />} name="CSS" />
+          <SkillCard logo={<SiJavascript className="text-[#fbbf24]" />} name="JavaScript" />
+          <SkillCard logo={<SiReact className="text-[#22d3ee]" />} name="React.js" />
+          <SkillCard logo={<SiNextdotjs className="text-[#fafafa]" />} name="Next.js" />
+          <SkillCard logo={<SiTailwindcss className="text-[#7dd3fc]" />} name="Tailwind.css" />
+          <SkillCard logo={<SiGithub className="text-[#fafafa]" />} name="Github" />
+          <SkillCard logo={<AiFillApi className="text-[#bef264]" />} name="APIs" />
+          <SkillCard logo={<SiNodedotjs className="text-[#166534]" />} name="Node.js" />
+          <SkillCard logo={<SiExpress className="text-[#a1a1aa]" />} name="Express.js" />
+          <SkillCard logo={<SiMysql className="text-[#fdba74]" />} name="MySQL" />
+          <SkillCard logo={<SiMongodb className="text-[#059669]" />} name="MongoDB" />
+          <SkillCard logo={<SiFirebase className="text-[#fb923c]" />} name="Firebase" />
         </div>
       </div>
     </div>
