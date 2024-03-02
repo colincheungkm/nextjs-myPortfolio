@@ -9,12 +9,14 @@ const About = () => {
     <div id="about" className="w-full p-2 flex items-center">
       <div className="max-w-[1240px] m-auto py-16 p-2 md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <h2 className={`${playfairDisplay.className} text-4xl mb-2 tracking-widest`}>ABOUT</h2>
+          <h2
+            className={`${playfairDisplay.className} text-4xl mb-2 tracking-widest text-[#00bcd4]`}
+          >
+            ABOUT
+          </h2>
 
           <div className="py-2 text-zinc-100 ">
             <p className="py-2 tracking-wider text-base leading-relaxed">
-              😊 A little about my journey...
-              <br />
               <br />
               I'm a results-driven professional with a strong background in finance and telecom.
               Over the past 8 years after graduating from the University of Toronto, I have excelled

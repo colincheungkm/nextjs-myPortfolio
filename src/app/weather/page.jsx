@@ -1,9 +1,9 @@
-import React from 'react';
-import { SiNextdotjs, SiTailwindcss } from 'react-icons/si';
-import { AiFillApi, AiFillCode } from 'react-icons/ai';
-import { MdWeb } from 'react-icons/md';
-import Link from 'next/link';
-import ProjectHeader from '@/components/project-page/ProjectHeader';
+import React from "react";
+import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
+import { AiFillApi, AiFillCode } from "react-icons/ai";
+import { MdWeb } from "react-icons/md";
+import Link from "next/link";
+import ProjectHeader from "@/components/project-page/ProjectHeader";
 
 const weather = () => {
   return (
@@ -30,7 +30,7 @@ const weather = () => {
               <Link
                 href="https://github.com/colincheungkm/nextjs-weatherApp"
                 target="_blank"
-                className="flex justify-center items-center px-8 py-2 my-1 bg-zinc-100 rounded-lg text-xl"
+                className="flex justify-center items-center px-8 py-2 my-1 bg-zinc-100 rounded-lg text-xl text-[#00bcd4]"
               >
                 <AiFillCode className="mr-1" /> Code
               </Link>
@@ -48,16 +48,19 @@ const weather = () => {
         {/* summary */}
         <div className="">
           <p className="py-2 text-zinc-100 tracking-wider text-base leading-relaxed">
-            This project served as an ideal introductory endeavor when I was delving deeper into React and Next. It
-            aimed to create a swift and responsive front-end application while also incorporating API calls using Axios.
+            This project served as an ideal introductory endeavor when I was delving deeper into
+            React and Next. It aimed to create a swift and responsive front-end application while
+            also incorporating API calls using Axios.
             <br />
             <br />
-            The primary emphasis of this project lies in its minimalist design, which leverages the capabilities of
-            Tailwind and Next.js seamlessly. Additionally, it provided me with a valuable opportunity to enhance my
-            comprehension of extracting data from JSON objects and effectively working with a free API.
+            The primary emphasis of this project lies in its minimalist design, which leverages the
+            capabilities of Tailwind and Next.js seamlessly. Additionally, it provided me with a
+            valuable opportunity to enhance my comprehension of extracting data from JSON objects
+            and effectively working with a free API.
             <br />
             <br />
-            By simply entering a city name into the search bar, you'll instantly receive real-time weather information!
+            By simply entering a city name into the search bar, you'll instantly receive real-time
+            weather information!
           </p>
         </div>
       </div>

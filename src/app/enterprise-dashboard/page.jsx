@@ -1,9 +1,9 @@
-import React from 'react';
-import { SiNextdotjs, SiTailwindcss } from 'react-icons/si';
-import { AiFillCode } from 'react-icons/ai';
-import { MdWeb } from 'react-icons/md';
-import Link from 'next/link';
-import ProjectHeader from '../../components/project-page/ProjectHeader';
+import React from "react";
+import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
+import { AiFillCode } from "react-icons/ai";
+import { MdWeb } from "react-icons/md";
+import Link from "next/link";
+import ProjectHeader from "../../components/project-page/ProjectHeader";
 
 const enterpriseDash = () => {
   return (
@@ -27,7 +27,7 @@ const enterpriseDash = () => {
               <Link
                 href="https://github.com/colincheungkm/nextjs-dashboardApp"
                 target="_blank"
-                className="flex justify-center items-center px-8 py-2 my-1 bg-zinc-100 rounded-lg text-xl"
+                className="flex justify-center items-center px-8 py-2 my-1 bg-zinc-100 rounded-lg text-xl text-[#00bcd4]"
               >
                 <AiFillCode className="mr-1" /> Code
               </Link>
@@ -45,15 +45,17 @@ const enterpriseDash = () => {
         {/* summary */}
         <div className="">
           <p className="py-2 text-zinc-100 tracking-wider text-base leading-relaxed">
-            I developed this front-end dashboard with a primary objective of experimenting with the Chart.js library to
-            create visually appealing bar graphs using static JSON data. The project was constructed using Tailwind CSS,
-            ensuring complete responsiveness through media queries that catered to small, medium, and large screens.
+            I developed this front-end dashboard with a primary objective of experimenting with the
+            Chart.js library to create visually appealing bar graphs using static JSON data. The
+            project was constructed using Tailwind CSS, ensuring complete responsiveness through
+            media queries that catered to small, medium, and large screens.
             <br />
             <br />
-            Personally, I find Tailwind CSS to be an invaluable tool when working in conjunction with React and Next. It
-            enables me to swiftly implement specific front-end designs and facilitates the creation of cleaner code by
-            organizing all the necessary information within a single component's folder. Utilizing Tailwind CSS has
-            significantly streamlined my development process while maintaining flexibility and efficiency.
+            Personally, I find Tailwind CSS to be an invaluable tool when working in conjunction
+            with React and Next. It enables me to swiftly implement specific front-end designs and
+            facilitates the creation of cleaner code by organizing all the necessary information
+            within a single component's folder. Utilizing Tailwind CSS has significantly streamlined
+            my development process while maintaining flexibility and efficiency.
           </p>
         </div>
       </div>

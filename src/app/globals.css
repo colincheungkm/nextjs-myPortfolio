@@ -10,7 +10,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#18181b] text-[#00bcd4];
+    @apply bg-[#18181b] text-[#fafafa];
   }
 
   li {

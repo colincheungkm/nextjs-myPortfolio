@@ -1,10 +1,10 @@
-import React from 'react';
-import { SiReact, SiTailwindcss } from 'react-icons/si';
-import { AiFillApi, AiFillCode } from 'react-icons/ai';
-import { MdWeb } from 'react-icons/md';
-import Link from 'next/link';
+import React from "react";
+import { SiReact, SiTailwindcss } from "react-icons/si";
+import { AiFillApi, AiFillCode } from "react-icons/ai";
+import { MdWeb } from "react-icons/md";
+import Link from "next/link";
 
-import ProjectHeader from '@/components/project-page/ProjectHeader';
+import ProjectHeader from "@/components/project-page/ProjectHeader";
 
 const githubfinder = () => {
   return (
@@ -31,7 +31,7 @@ const githubfinder = () => {
               <Link
                 href="https://github.com/colincheungkm/GitHub-Finder"
                 target="_blank"
-                className="flex justify-center items-center px-8 py-2 my-1 bg-zinc-100 rounded-lg text-xl"
+                className="flex justify-center items-center px-8 py-2 my-1 bg-zinc-100 rounded-lg text-xl text-[#00bcd4]"
               >
                 <AiFillCode className="mr-1" /> Code
               </Link>
@@ -49,14 +49,15 @@ const githubfinder = () => {
         {/* summary */}
         <div className="">
           <p className="py-2 text-zinc-100 tracking-wider text-base leading-relaxed">
-            This application retrieves GitHub profiles from the GitHub API and showcases various users. The primary
-            objective of this project was to gain a comprehensive understanding of React's state management. It provided
-            me with valuable insights into utilizing state management hooks such as useContext and useReducer, delving
-            deeper into their functionality and applications within a React project.
+            This application retrieves GitHub profiles from the GitHub API and showcases various
+            users. The primary objective of this project was to gain a comprehensive understanding
+            of React's state management. It provided me with valuable insights into utilizing state
+            management hooks such as useContext and useReducer, delving deeper into their
+            functionality and applications within a React project.
             <br />
             <br />
-            Through this endeavor, I acquired a deeper comprehension of managing state in React and explored advanced
-            state management techniques.
+            Through this endeavor, I acquired a deeper comprehension of managing state in React and
+            explored advanced state management techniques.
           </p>
         </div>
       </div>

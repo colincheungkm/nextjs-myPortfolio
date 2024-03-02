@@ -28,7 +28,9 @@ const Skills = ({}) => {
   return (
     <div id="skills" className="w-full p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full py-16 px-2">
-        <h2 className={`${playfairDisplay.className} text-4xl mb-2 tracking-widest`}>SKILLS</h2>
+        <h2 className={`${playfairDisplay.className} text-4xl text-[#00bcd4] mb-2 tracking-widest`}>
+          SKILLS
+        </h2>
 
         <div className="grid py-2 md:grid-cols-2 lg:grid-cols-4 gap-3">
           <SkillCard logo={<SiHtml5 className="text-[#f97316]" />} name="HTML" />

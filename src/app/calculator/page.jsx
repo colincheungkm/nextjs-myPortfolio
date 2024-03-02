@@ -1,9 +1,9 @@
-import React from 'react';
-import { SiHtml5, SiCss3, SiJavascript } from 'react-icons/si';
-import { AiFillCode } from 'react-icons/ai';
-import { MdWeb } from 'react-icons/md';
-import Link from 'next/link';
-import ProjectHeader from '../../components/project-page/ProjectHeader';
+import React from "react";
+import { SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
+import { AiFillCode } from "react-icons/ai";
+import { MdWeb } from "react-icons/md";
+import Link from "next/link";
+import ProjectHeader from "../../components/project-page/ProjectHeader";
 
 const calculator = () => {
   return (
@@ -25,7 +25,7 @@ const calculator = () => {
               </p>
             </div>
 
-            <div className="flex flex-col px-1 ml-12">
+            <div className="flex flex-col px-1 ml-12 text-[#00bcd4]">
               <Link
                 href="https://github.com/colincheungkm/calculator-Project"
                 target="_blank"
@@ -46,20 +46,20 @@ const calculator = () => {
 
         <div className="">
           <p className="py-2 text-zinc-100 tracking-wider text-base leading-relaxed">
-            This was one of my first few projects when I was still mastering the foundations of web development. It was
-            built using the three main fundamentals: HTML, CSS, and JavaScript. Tackling this project initially posed
-            quite a complex challenge.
+            This was one of my first few projects when I was still mastering the foundations of web
+            development. It was built using the three main fundamentals: HTML, CSS, and JavaScript.
+            Tackling this project initially posed quite a complex challenge.
             <br />
             <br />
-            Here, I used the "class" construct, which is centered around object-oriented programming, to essentially
-            build the blueprint for this analog calculator. Later on, I would instantiate a new "calculator" from the
-            "Calculator" class.
+            Here, I used the "class" construct, which is centered around object-oriented
+            programming, to essentially build the blueprint for this analog calculator. Later on, I
+            would instantiate a new "calculator" from the "Calculator" class.
             <br />
             <br />
-            Throughout this endeavor, I not only deepened my understanding of class syntax but also delved into the
-            intricacies of the Document Object Model (DOM). This project provided an invaluable opportunity for me to
-            gain hands-on familiarity with manipulating elements within web pages and enhanced my overall proficiency in
-            web development.
+            Throughout this endeavor, I not only deepened my understanding of class syntax but also
+            delved into the intricacies of the Document Object Model (DOM). This project provided an
+            invaluable opportunity for me to gain hands-on familiarity with manipulating elements
+            within web pages and enhanced my overall proficiency in web development.
           </p>
         </div>
       </div>

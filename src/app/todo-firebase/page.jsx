@@ -1,9 +1,9 @@
-import React from 'react';
-import { SiNextdotjs, SiTailwindcss, SiFirebase } from 'react-icons/si';
-import { AiFillCode } from 'react-icons/ai';
-import { MdWeb } from 'react-icons/md';
-import Link from 'next/link';
-import ProjectHeader from '@/components/project-page/ProjectHeader';
+import React from "react";
+import { SiNextdotjs, SiTailwindcss, SiFirebase } from "react-icons/si";
+import { AiFillCode } from "react-icons/ai";
+import { MdWeb } from "react-icons/md";
+import Link from "next/link";
+import ProjectHeader from "@/components/project-page/ProjectHeader";
 
 const todofirebase = () => {
   return (
@@ -30,7 +30,7 @@ const todofirebase = () => {
               <Link
                 href="https://github.com/colincheungkm/nextjs-firebase-todo-app"
                 target="_blank"
-                className="flex justify-center items-center px-8 py-2 my-1 bg-zinc-100 rounded-lg text-xl"
+                className="flex justify-center items-center px-8 py-2 my-1 bg-zinc-100 rounded-lg text-xl text-[#00bcd4]"
               >
                 <AiFillCode className="mr-1" /> Code
               </Link>
@@ -48,13 +48,14 @@ const todofirebase = () => {
         {/* summary */}
         <div className="">
           <p className="py-2 text-zinc-100 tracking-wider text-base leading-relaxed">
-            I have previously developed several To-Do apps using Vanilla JS, but this particular one was built with a
-            specific focus on implementing CRUD (Create, Read, Update, Delete) functionalities through the Google
-            Firebase backend.
+            I have previously developed several To-Do apps using Vanilla JS, but this particular one
+            was built with a specific focus on implementing CRUD (Create, Read, Update, Delete)
+            functionalities through the Google Firebase backend.
             <br />
             <br />
-            This integration enables the app to seamlessly synchronize data across multiple devices, offering a superior
-            user experience compared to relying solely on the browser's local storage.
+            This integration enables the app to seamlessly synchronize data across multiple devices,
+            offering a superior user experience compared to relying solely on the browser's local
+            storage.
           </p>
         </div>
       </div>

@@ -18,16 +18,18 @@ const Main = () => {
         <div>
           <p className="text-sm tracking-wider text-zinc-300 mt-10 mb-10">HELLO I AM</p>
           <h1
-            className={`${playfairDisplay.className} py-4 mb-10 tracking-widest text-5xl md:text-6xl lg:text-7xl`}
+            className={`${playfairDisplay.className} py-4 mb-10 tracking-widest text-5xl md:text-6xl lg:text-7xl text-[#00bcd4]`}
           >
             COLIN <span className="text-zinc-100">C</span>HEUNG{" "}
             <span className="text-zinc-100">KM</span>
           </h1>
 
-          <div className={`text-zinc-100 max-w-[80%] m-auto tracking-widest leading-loose`}>
-            <p>SOFTWARE ENGINEER</p>
+          <div className={`text-lg text-zinc-100 max-w-[80%] m-auto tracking-widest leading-loose`}>
+            <p>- SUPPORT ENGINEER -</p>
+            <p>- FULL-STACK DEVELOPER -</p>
+            <p>- TECH ENTHUSIAST -</p>
           </div>
-          <div className="flex items-center justify-between max-w-[400px] m-auto py-4 mt-12">
+          <div className="flex items-center justify-between max-w-[400px] m-auto py-4 mt-12 text-[#00bcd4]">
             <Link
               href="https://www.linkedin.com/in/colincheungkm/"
               target="_blank"
