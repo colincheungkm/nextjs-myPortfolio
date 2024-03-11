@@ -2,7 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-/* #00bcd4 #414141 zinc-400 Playfair Display*/
+/* 
+#00bcd4 #414141 zinc-400 Playfair Display
+
+SiHtml5 className="text-[#f97316]"
+SiCss3 className="text-[#1d4ed8]"
+SiJavascript className="text-[#fbbf24]
+SiReact className="text-[#22d3ee]"
+SiNextdotjs className="text-[#fafafa]"
+SiTailwindcss className="text-[#7dd3fc]"
+SiGithub className="text-[#fafafa]"
+AiFillApi className="text-[#bef264]"
+SiNodedotjs className="text-[#166534]"
+SiExpress className="text-[#a1a1aa]"
+SiMysql className="text-[#fdba74]"
+SiMongodb className="text-[#059669]"
+SiFirebase className="text-[#fb923c]"
+
+*/
 
 html {
   scroll-behavior: smooth !important;

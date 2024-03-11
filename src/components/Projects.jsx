@@ -29,8 +29,8 @@ const Projects = () => {
             projectUrl="/#home"
             logo={
               <>
-                <SiNextdotjs className="mx-1" />
-                <SiTailwindcss className="mx-1" />
+                <SiNextdotjs className="mx-1 text-[#fafafa]" />
+                <SiTailwindcss className="mx-1 text-[#7dd3fc]" />
               </>
             }
           />
@@ -41,9 +41,9 @@ const Projects = () => {
             projectUrl="/todo-firebase"
             logo={
               <>
-                <SiNextdotjs className="mx-1" />
-                <SiTailwindcss className="mx-1" />
-                <SiFirebase className="mx-1" />
+                <SiNextdotjs className="mx-1 text-[#fafafa]" />
+                <SiTailwindcss className="mx-1 text-[#7dd3fc]" />
+                <SiFirebase className="mx-1 text-[#fb923c]" />
               </>
             }
           />
@@ -54,9 +54,9 @@ const Projects = () => {
             projectUrl="/githubfinder"
             logo={
               <>
-                <SiReact className="mx-1" />
-                <SiTailwindcss className="mx-1" />
-                <AiFillApi className="mx-1" />
+                <SiReact className="mx-1 text-[#22d3ee]" />
+                <SiTailwindcss className="mx-1 text-[#7dd3fc]" />
+                <AiFillApi className="mx-1 text-[#bef264]" />
               </>
             }
           />
@@ -66,8 +66,8 @@ const Projects = () => {
             projectUrl="/enterprise-dashboard"
             logo={
               <>
-                <SiNextdotjs className="mx-1" />
-                <SiTailwindcss className="mx-1" />
+                <SiNextdotjs className="mx-1 text-[#fafafa]" />
+                <SiTailwindcss className="mx-1 text-[#7dd3fc]" />
               </>
             }
           />
@@ -77,9 +77,9 @@ const Projects = () => {
             projectUrl="/weather"
             logo={
               <>
-                <SiNextdotjs className="mx-1" />
-                <SiTailwindcss className="mx-1" />
-                <AiFillApi className="mx-1" />
+                <SiNextdotjs className="mx-1 text-[#fafafa]" />
+                <SiTailwindcss className="mx-1 text-[#7dd3fc]" />
+                <AiFillApi className="mx-1 text-[#bef264]" />
               </>
             }
           />
@@ -89,9 +89,9 @@ const Projects = () => {
             projectUrl="/calculator"
             logo={
               <>
-                <SiHtml5 className="mx-1" />
-                <SiCss3 className="mx-1" />
-                <SiJavascript className="mx-1" />
+                <SiHtml5 className="mx-1 text-[#f97316]" />
+                <SiCss3 className="mx-1 text-[#1d4ed8]" />
+                <SiJavascript className="mx-1 text-[#fbbf24]" />
               </>
             }
           />

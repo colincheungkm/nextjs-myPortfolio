@@ -25,9 +25,9 @@ const Main = () => {
           </h1>
 
           <div className={`text-lg text-zinc-100 max-w-[80%] m-auto tracking-widest leading-loose`}>
-            <p>- SUPPORT ENGINEER -</p>
+            {/* <p>- SUPPORT ENGINEER -</p>
             <p>- FULL-STACK DEVELOPER -</p>
-            <p>- TECH ENTHUSIAST -</p>
+            <p>- TECH ENTHUSIAST -</p> */}
           </div>
           <div className="flex items-center justify-between max-w-[400px] m-auto py-4 mt-12 text-[#00bcd4]">
             <Link

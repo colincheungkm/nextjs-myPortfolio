@@ -32,7 +32,7 @@ const Skills = ({}) => {
           SKILLS
         </h2>
 
-        <div className="grid py-2 md:grid-cols-2 lg:grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 py-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
           <SkillCard logo={<SiHtml5 className="text-[#f97316]" />} name="HTML" />
           <SkillCard logo={<SiCss3 className="text-[#1d4ed8]" />} name="CSS" />
           <SkillCard logo={<SiJavascript className="text-[#fbbf24]" />} name="JavaScript" />

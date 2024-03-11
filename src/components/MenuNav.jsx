@@ -15,9 +15,9 @@ export default function MenuNav() {
   };
 
   return (
-    <div className="fixed w-full h-20 z-[100] p-4 mt-1 hidden md:block">
+    <div className="fixed w-full h-20 z-[100] p-1 mt-1 hidden lg:block">
       <button
-        className={`${playfairDisplay.className} flex font-bold text-3xl text-zinc-100 border-[#00bcd4] border-y-2 rounded-xl p-1 text-center justify-center items-center`}
+        className={`${playfairDisplay.className} flex font-bold text-3xl text-amber-400 rounded-xl p-1 text-center justify-center items-center`}
         onClick={handleOpen}
       >
         <CgMenuGridO
@@ -26,15 +26,16 @@ export default function MenuNav() {
               ? `mr-2 -rotate-45 transform transition-transform ease-in duration-300 text-4xl`
               : `mr-2 transform transition-transform ease-in duration-300 text-4xl`
           }
-        />{" "}
+        />
+        {/* {" "}
         <span className="mr-2">C</span>
         <span className="mr-2">K</span>
-        <span className="mr-2">M</span>
+        <span className="mr-2">M</span> */}
       </button>
 
       {/* Menu */}
       {open ? (
-        <ul className="flex flex-col max-w-[130px]">
+        <ul className="flex flex-col max-w-[130px] text-[#00bcd4]">
           <Link href="/#home">
             <li className="text-md uppercase mt-1 max-w-[130px] bg-zinc-100 rounded-md p-1 hover:bg-gradient-to-r from-[#00bbd47b] to-[#fff0]">
               🏠 Home

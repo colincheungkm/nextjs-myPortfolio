@@ -27,11 +27,11 @@ const githubfinder = () => {
               </p>
             </div>
 
-            <div className="flex flex-col px-1 ml-12">
+            <div className="flex flex-col px-1 ml-12 text-[#00bcd4]">
               <Link
                 href="https://github.com/colincheungkm/GitHub-Finder"
                 target="_blank"
-                className="flex justify-center items-center px-8 py-2 my-1 bg-zinc-100 rounded-lg text-xl text-[#00bcd4]"
+                className="flex justify-center items-center px-8 py-2 my-1 bg-zinc-100 rounded-lg text-xl"
               >
                 <AiFillCode className="mr-1" /> Code
               </Link>
