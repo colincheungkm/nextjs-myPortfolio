@@ -15,7 +15,7 @@ const Contact = () => {
 
         <div className="w-full h-full">
           <div>
-            <h2 className="py-4 tracking-wider text-zinc-100">
+            {/* <h2 className="py-4 tracking-wider text-zinc-100">
               <p>📍 TORONTO, CANADA</p>
               <p className="text-xl mt-4">✉️ hello@colincheungkm.com</p>
             </h2>
@@ -26,10 +26,10 @@ const Contact = () => {
               <br />
               <br /> Whether you have a thought-provoking project, a potential collaboration, or
               simply wish to engage in meaningful conversations, I encourage you to reach out!
-            </p>
+            </p> */}
           </div>
           <div>
-            <p className="mt-10 text-zinc-100">CONNECT WITH ME</p>
+            {/* <p className="mt-10 text-zinc-100">CONNECT WITH ME</p> */}
             <div className="flex justify-around max-w-[400px] py-4 text-[#00bcd4]">
               <Link
                 href="https://www.linkedin.com/in/colincheungkm/"

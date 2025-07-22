@@ -35,10 +35,15 @@ const About = () => {
               development and sharpened my understanding of this rapidly evolving field.
               <br />
               <br />
-              I am now seeking new opportunities where I can leverage my finance and telecom
-              experience alongside my growing expertise in web development. I am passionate about
-              combining my client-focused mindset with cutting-edge technology to create impactful
-              solutions.
+              Currently, I serve as a Technical Account Manager & Application Support Engineer at
+              dacadoo in Toronto, where I lead technical delivery for client projects, coordinate
+              with global teams, and manage complex roadmaps, migrations, and escalations. I set up
+              white-label environments, resolve complex support issues, and contribute to product
+              and sales initiatives with technical expertise.
+              <br />
+              <br />
+              I am passionate about combining my client-focused mindset with cutting-edge
+              technology to create impactful solutions.
               <br />
               <br />
               If you're looking for a dedicated professional with a diverse skillset and a drive for
